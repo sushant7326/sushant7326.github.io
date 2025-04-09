@@ -1,0 +1,80 @@
+.project-card {
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.project-card-image-container {
+    height: 150px;
+    overflow: hidden;
+}
+
+.project-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-card-image {
+    transform: scale(1.05);
+}
+
+.project-card-content {
+    padding: 16px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-card-title {
+    margin: 0 0 8px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+}
+
+.project-card-description {
+    margin: 0 0 16px;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+    /* Ensure only 3 lines are shown */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.project-card-link {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    color: #0066cc;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.project-card-link:hover {
+    color: #004499;
+}
+
+.project-card-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+}

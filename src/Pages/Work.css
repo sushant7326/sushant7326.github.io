@@ -1,0 +1,87 @@
+.work-page-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-block: 20px;
+}
+
+.work-type-button {
+    position: relative;
+    cursor: pointer;
+}
+
+.work-type-button .top-right-corner {
+    content: '';
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: -5px;
+    right: -7px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    z-index: 2;
+}
+
+/* Bottom-left corner */
+.work-type-button .bottom-left-corner {
+    content: '';
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    bottom: -5px;
+    left: -7px;
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    z-index: 2;
+}
+
+.top-left-corner {
+    content: '';
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    top: -5px;
+    left: -7px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    z-index: 2;
+}
+
+.bottom-right-corner {
+    content: '';
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    bottom: -5px;
+    right: -7px;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    opacity: 0;
+    transition: 0.3s ease-out;
+    z-index: 2;
+}
+
+.work-type-button:hover .top-right-corner,
+.work-type-button:hover .bottom-left-corner,
+.work-type-button:hover .top-left-corner,
+.work-type-button:hover .bottom-right-corner {
+    opacity: 1;
+}
+
+.work-type-button.active .top-right-corner,
+.work-type-button.active .bottom-left-corner,
+.work-type-button.active .top-left-corner,
+.work-type-button.active .bottom-right-corner {
+    opacity: 1;
+    z-index: inherit;
+}
+
+.top-left-corner {
+    display: all;
+}

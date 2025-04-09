@@ -1,0 +1,14 @@
+{
+    "work": [
+        {
+            "id": 1,
+            "img": "/logos/dg.jpg",
+            "heading": "Datagenie AI Technologies Pvt. Ltd",
+            "overview": "Software Development Intern",
+            "desc": "Built a Live Streaming component in React.js with ZegoCloud SDK, integrating chat mic/camera on/off feature. Created CRUD APIs for RBAC & live stream management to implement  user management superadmin dashboard. Implemented secure one-to-one video/audio calling capabilities & superchat features facilitated by MQTT Server.",
+            "linktype": "Certificate",
+            "link": "https://drive.google.com/file/d/1_jtECejpq7T7P9BNxiZq8iDWIM_Ip6ok/view?usp=sharing",
+            "duration": "Nov'24 - Dec'24"
+        }
+    ]
+}

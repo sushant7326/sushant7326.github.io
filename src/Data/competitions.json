@@ -1,0 +1,14 @@
+{
+    "work": [
+        {
+            "id": 1,
+            "img": "/logos/popkorn.png",
+            "heading": "Open-Soft, General Championship - Technology, 2023-24, IIT Kharagpur",
+            "overview": "Enhancing Movie Streaming User Experience with MongoDB Atlas Search and Advanced Video Playback Options (website no longer hosted).",
+            "desc": "Built a movie streaming platform with autocomplete search and recommendation system using TF-IDF model. Added fuzzy and semantic search with MongoDB Atlas, supporting natural language queries enhancing accuracy. Enhanced video playback options with adaptive bitrate streaming, speed control, and PIP mode using VidStack.",
+            "linktype": "Website",
+            "link": "https://popkorn.tech",
+            "duration": "Mar'24"
+        }
+    ]
+}
